@@ -1,0 +1,9 @@
+# Build artifacts
+LittleTodo
+LittleTodo.app/
+*.o
+*.swp
+*.dSYM/
+
+# macOS
+.DS_Store
