@@ -3,24 +3,24 @@ set -e
 
 cd "$(dirname "$0")"
 
-echo "Compiling LittleTodo..."
-swiftc main.swift -o LittleTodo \
+echo "Compiling LiveTodo..."
+swiftc main.swift -o LiveTodo \
     -target arm64-apple-macos14.0 \
     -O \
     -whole-module-optimization
 
 echo "Creating app bundle..."
-rm -rf LittleTodo.app
-mkdir -p LittleTodo.app/Contents/MacOS
-mkdir -p LittleTodo.app/Contents/Resources
+rm -rf LiveTodo.app
+mkdir -p LiveTodo.app/Contents/MacOS
+mkdir -p LiveTodo.app/Contents/Resources
 
-cp LittleTodo LittleTodo.app/Contents/MacOS/
-cp Info.plist LittleTodo.app/Contents/
+cp LiveTodo LiveTodo.app/Contents/MacOS/
+cp Info.plist LiveTodo.app/Contents/
 
-rm -f LittleTodo
+rm -f LiveTodo
 
 echo ""
-echo "Done! LittleTodo.app created."
+echo "Done! LiveTodo.app created."
 echo ""
-echo "To launch:  open LittleTodo.app"
-echo "To install: cp -r LittleTodo.app /Applications/"
+echo "To launch:  open LiveTodo.app"
+echo "To install: cp -r LiveTodo.app /Applications/"

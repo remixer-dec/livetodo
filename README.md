@@ -13,7 +13,7 @@ The fork features todo item time tracking.
 - Add tasks with `Enter`, check them off with a click
 - Double-click to edit, hover to reveal delete
 - Archive completed lists to timestamped JSON files
-- Data persisted locally in `~/Library/Application Support/LittleTodo/`
+- Data persisted locally in `~/Library/Application Support/LiveTodo/`
 - Native macOS look and feel (SwiftUI + AppKit)
 - ~600 lines of Swift. That's it.
 
@@ -22,8 +22,8 @@ The fork features todo item time tracking.
 ### Build from source
 
 ```bash
-git clone https://github.com/Liftof/littletodo.git
-cd littletodo
+git clone https://github.com/remixer-dec/livetodo.git
+cd livetodo
 chmod +x build.sh
 ./build.sh
 ```
@@ -32,10 +32,10 @@ Then either:
 
 ```bash
 # Run directly
-open LittleTodo.app
+open LiveTodo.app
 
 # Or copy to Applications
-cp -r LittleTodo.app /Applications/
+cp -r LiveTodo.app /Applications/
 ```
 
 ### Requirements
@@ -69,7 +69,7 @@ The entire app is a single `main.swift` file:
 ## Project structure
 
 ```
-littletodo/
+livetodo/
 ├── main.swift      # The entire app
 ├── build.sh        # Build script
 ├── Info.plist      # App bundle metadata
@@ -79,10 +79,10 @@ littletodo/
 
 ## Launch at login
 
-To start LittleTodo automatically:
+To start LiveTodo automatically:
 
 1. Open **System Settings** → **General** → **Login Items**
-2. Click **+** and select `LittleTodo.app`
+2. Click **+** and select `LiveTodo.app`
 
 ## License
 

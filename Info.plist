@@ -5,9 +5,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.pierrebaptiste.littletodo</string>
     <key>CFBundleName</key>
-    <string>LittleTodo</string>
+    <string>LiveTodo</string>
     <key>CFBundleDisplayName</key>
-    <string>LittleTodo</string>
+    <string>LiveTodo</string>
     <key>CFBundleVersion</key>
     <string>1.0.0</string>
     <key>CFBundleShortVersionString</key>
@@ -15,7 +15,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleExecutable</key>
-    <string>LittleTodo</string>
+    <string>LiveTodo</string>
     <key>LSUIElement</key>
     <true/>
     <key>NSHighResolutionCapable</key>
