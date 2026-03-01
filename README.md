@@ -1,6 +1,7 @@
-# LittleTodo
+# LiveTodo
 
-A tiny menu bar todo app for macOS. No Electron, no Xcode project, no dependencies — just a single Swift file compiled from the terminal.
+A fork of tiny menu bar todo app for macOS. No Electron, no Xcode project, no dependencies — just a single Swift file compiled from the terminal.
+The fork features todo item time tracking.
 
 ![macOS](https://img.shields.io/badge/macOS-14.0+-black?logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.9+-F05138?logo=swift&logoColor=white)
@@ -14,7 +15,7 @@ A tiny menu bar todo app for macOS. No Electron, no Xcode project, no dependenci
 - Archive completed lists to timestamped JSON files
 - Data persisted locally in `~/Library/Application Support/LittleTodo/`
 - Native macOS look and feel (SwiftUI + AppKit)
-- ~300 lines of Swift. That's it.
+- ~600 lines of Swift. That's it.
 
 ## Install
 
@@ -52,6 +53,8 @@ cp -r LittleTodo.app /Applications/
 | Edit a task | Double-click the text |
 | Delete a task | Hover, click `×` |
 | Archive all | Click the **Archive** button |
+| Start working on a task | Hover, click `play` |
+| Move to next task | Click on `next` or `done`. |
 | Quit | Right-click the menu bar icon → Quit |
 
 ## How it works
